@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume Template</title>
+  <style>
+    :root {
+      --accent: #0b5fff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --bg: #ffffff;
+    }
+
+    /* Base */
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+                   Arial, "Noto Sans", "Liberation Sans", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Layout */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+
+    .name {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: 0.2px;
+      line-height: 1.15;
+    }
+
+    .title {
+      font-size: 1.05rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin-top: 6px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+    .contact span { display: inline-flex; align-items: center; gap: 8px; }
+    .contact svg { width: 16px; height: 16px; color: var(--muted); }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    section {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+    }
+
+    h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.3px;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .summary { color: var(--text); }
+
+    /* Lists */
+    .list {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .bullet-list {
+      margin: 6px 0 0 0;
+      padding-left: 18px;
+    }
+
+    .bullet-list li {
+      margin: 2px 0;
+    }
+
+    /* Experience / Education cards */
+    .item {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2px 16px;
+    }
+    .item .role, .item .degree { font-weight: 600; }
+    .item .org { color: var(--muted); }
+    .item .meta { color: var(--muted); font-size: 0.92rem; white-space: nowrap; }
+
+    /* Skills grid */
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px 12px;
+    }
+    .chip {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 0.95rem;
+      display: inline-block;
+    }
+
+    /* Print styles */
+    @media print {
+      body { background: white; }
+      .container { padding: 0.6in; }
+      section { break-inside: avoid; }
+      a { text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="document">
+    <header role="banner" aria-label="Header">
+      <div class="name" aria-label="Your name">First Last, Credentials</div>
+      <div class="title" aria-label="Your professional title">Your Job Title • Keywords</div>
+      <div class="contact" aria-label="Contact information">
+        <span title="Location">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C8.686 2 6 4.686 6 8c0 4.5 6 14 6 14s6-9.5 6-14c0-3.314-2.686-6-6-6zm0 8.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+          </svg>
+          City, ST
+        </span>
+        <span title="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2
+            2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          you@example.com
+        </span>
+        <span title="Phone">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24
+            11.36 11.36 0 0 0 3.56.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1
+            1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h3.49a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.56 1 1 0 0 1-.24 1.03l-2.2 2.2z"/>
+          </svg>
+          (555) 555-5555
+        </span>
+        <span title="Website or LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.8-2.2 4.1 0 4.8 2.7 4.8 6.2V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9-2.4 0-2.8 1.9-2.8 3.8V24h-4V8z"/>
+          </svg>
+          linkedin.com/in/yourname
+        </span>
+      </div>
+    </header>
+
+    <main role="main">
+      <section aria-label="Professional Summary">
+        <h2>Professional Summary</h2>
+        <p class="summary">
+          Concise 2–4 sentence overview highlighting your years of experience, core strengths,
+          industry focus, and the value you bring. Tailor this to the role.
+        </p>
+      </section>
+
+      <section aria-label="Key Skills">
+        <h2>Key Skills</h2>
+        <div class="skills" aria-label="Skills list">
+          <span class="chip">Skill One</span>
+          <span class="chip">Skill Two</span>
+          <span class="chip">Skill Three</span>
+          <span class="chip">Skill Four</span>
+          <span class="chip">Skill Five</span>
+          <span class="chip">Skill Six</span>
+        </div>
+      </section>
+
+      <section aria-label="Experience">
+        <h2>Experience</h2>
+        <ul class="list">
+          <li class="item">
+            <div>
+              <div class="role">Job Title</div>
+              <div class="org">Company · City, ST</div>
+              <ul class="bullet-list">
+                <li>Achievement/result with measurable impact (e.g., increased X by Y%).</li>
+                <li>Action verb + task + tools/tech + outcome.</li>
+                <li>Collaborated with cross-functional team to accomplish Z.</li>
+              </ul>
+            </div>
+            <div class="meta">Mon YYYY — Present</div>
+          </li>
+
+          <li class="item">
+            <div>
+              <div class="role">Job Title</div>
+              <div class="org">Company · City, ST</div>
+              <ul class="bullet-list">
+                <li>Key responsibility or accomplishment.</li>
+                <li>Optimized/Implemented/Designed ... resulting in ...</li>
+              </ul>
+            </div>
+            <div class="meta">Mon YYYY — Mon YYYY</div>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Projects">
+        <h2>Projects</h2>
+        <ul class="list">
+          <li class="item">
+            <div>
+              <div class="role">Project Name</div>
+              <div class="org">Short description with scope, tools/tech, and outcome; add a link if public.</div>
+              <ul class="bullet-list">
+                <li>What you did and why it mattered.</li>
+                <li>Impact with a metric if possible.</li>
+              </ul>
+            </div>
+            <div class="meta">YYYY</div>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Education">
+        <h2>Education</h2>
+        <ul class="list">
+          <li class="item">
+            <div>
+              <div class="degree">Degree, Major</div>
+              <div class="org">University · City, ST</div>
+              <div class="org">GPA (optional), Honors (optional)</div>
+            </div>
+            <div class="meta">Mon YYYY — Mon YYYY</div>
+          </li>
+        </ul>
+      </section>
+
+      <section aria-label="Certifications & Awards">
+        <h2>Certifications &amp; Awards</h2>
+        <ul class="bullet-list">
+          <li>Certification Name — Issuer (YYYY)</li>
+          <li>Award Name — Organization (YYYY)</li>
+        </ul>
+      </section>
+
+      <section aria-label="Additional">
+        <h2>Additional</h2>
+        <ul class="bullet-list">
+          <li>Languages: English (Native), Spanish (Conversational)</li>
+          <li>Volunteer: Role — Org (YYYY–YYYY)</li>
+          <li>Interests (optional): e.g., distance running, community health</li>
+        </ul>
+      </section>
+
+      <section aria-label="References">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
