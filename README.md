@@ -4,7 +4,7 @@ This repository is dedicated to showcasing the **art, science, and heart** of nu
 
 ## Fun Fact  
 **Florence Nightingale** was a data nerd before it was cool.  
-She used pie charts to convince people about sanitation. *Respect the original infographic queen.*
+She used pie charts to convince people about sanitation.
 
 ---
 
