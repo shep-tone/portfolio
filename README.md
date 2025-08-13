@@ -1,7 +1,12 @@
 # 🩺 **Nursing Excellence Portfolio** 💉
 
-Welcome to the **Hall of Care** — where *compassion meets clinical precision*.  
 This repository is dedicated to showcasing the **art, science, and heart** of nursing.
+
+## 🧠 Fun Fact  
+**Florence Nightingale** was a data nerd before it was cool.  
+She used pie charts to convince people about sanitation. *Respect the original infographic queen.*
+
+---
 
 ---
 
@@ -12,42 +17,27 @@ This repository is dedicated to showcasing the **art, science, and heart** of nu
 
 ## 📋 **Sections**
 
-### 1. 🩻 **Assessment Skills**
-- 🔍 **Head-to-Toe Mastery**
-- ❤️ Heart Sounds Identification
-- 🌬️ Breath Sound Differentiation
-- 👀 Pupillary Light Reflex Check  
+### 1. 💊 Resume. Start Here
 > *Because noticing the small changes can save a life.*
 
 ---
 
-### 2. 💊 **Pharmacology Power**
-- **Oxybutynin** – Bladder's best friend 🚽
-- **Enoxaparin** – Clot stopper 🛡️
-- **Tylenol** – Pain & fever's nemesis 🌡️
-- **Levofloxacin** – Bacterial beatdown 🔬
+### 2. 💉 Immunization records
+
 
 ---
 
-### 3. 📈 **Nursing Process Flow**
-1. **Assessment** – Eyes open, ears alert 👂  
-2. **Diagnosis** – *NANDA-approved* only ✅  
-3. **Planning** – Care plan that Florence Nightingale would envy 🌹  
-4. **Implementation** – Rolling up the sleeves 💪  
-5. **Evaluation** – Because reflection improves the next round 🪞  
-
----
-
-## 🧠 Fun Fact  
-**Florence Nightingale** was a data nerd before it was cool 📊.  
-She used pie charts to convince people about sanitation. *Respect the original infographic queen.*
-
----
-
-## 🏆 **Awards in the Ward**
-- 🥇 Fastest IV Start (Under Pressure Division)
+## 🥇 Certificates/Certifications
+-  Fastest IV Start (Under Pressure Division)
 - 🥈 Cleanest Patient Room Champion
 - 🥉 "You Made Me Laugh" Bedside Award
+---
+
+## 👀 Letters of Recommendation
+
+---
+
+## ❤️ Thank you letters from patients, employers, and coworkers 
 
 ---
 
