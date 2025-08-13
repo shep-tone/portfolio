@@ -17,13 +17,13 @@ She used pie charts to convince people about sanitation. *Respect the original i
 
 ## 📋 **Sections**
 
-### 1. 💊 Resume. Start Here
+### 💊 Resume. Start Here
 
 
 
 ---
 
-### 2. 💉 Immunization records
+### 💉 Immunization records
 
 
 
