@@ -143,8 +143,8 @@
 <body>
   <div class="container" role="document">
     <header role="banner" aria-label="Header">
-      <div class="name" aria-label="Your name">First Last, Credentials</div>
-      <div class="title" aria-label="Your professional title">Your Job Title • Keywords</div>
+      <div class="name" aria-label="Your name">R Shephard</div>
+      <div class="title" aria-label="Your professional title">Student • Nursing</div>
       <div class="contact" aria-label="Contact information">
         <span title="Location">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -157,7 +157,7 @@
             <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2
             2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/>
           </svg>
-          you@example.com
+          johnny.fantastic_1@yahoo.com
         </span>
         <span title="Phone">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -165,13 +165,7 @@
             11.36 11.36 0 0 0 3.56.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1
             1A17 17 0 0 1 3 7a1 1 0 0 1 1-1h3.49a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.56 1 1 0 0 1-.24 1.03l-2.2 2.2z"/>
           </svg>
-          (555) 555-5555
-        </span>
-        <span title="Website or LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.8-2.2 4.1 0 4.8 2.7 4.8 6.2V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9-2.4 0-2.8 1.9-2.8 3.8V24h-4V8z"/>
-          </svg>
-          linkedin.com/in/yourname
+          (555) 123-4567
         </span>
       </div>
     </header>
@@ -180,20 +174,19 @@
       <section aria-label="Professional Summary">
         <h2>Professional Summary</h2>
         <p class="summary">
-          Concise 2–4 sentence overview highlighting your years of experience, core strengths,
-          industry focus, and the value you bring. Tailor this to the role.
+          Excited and ambitious nursing student, who is excited for all opportunities.
         </p>
       </section>
 
       <section aria-label="Key Skills">
         <h2>Key Skills</h2>
         <div class="skills" aria-label="Skills list">
-          <span class="chip">Skill One</span>
-          <span class="chip">Skill Two</span>
-          <span class="chip">Skill Three</span>
-          <span class="chip">Skill Four</span>
-          <span class="chip">Skill Five</span>
-          <span class="chip">Skill Six</span>
+          <span class="chip">Communication</span>
+          <span class="chip">Care Plans</span>
+          <span class="chip">Assessments</span>
+          <span class="chip">Planning</span>
+          <span class="chip">Inter-team delivery systems</span>
+          <span class="chip">Six Sigma</span>
         </div>
       </section>
 
@@ -202,12 +195,12 @@
         <ul class="list">
           <li class="item">
             <div>
-              <div class="role">Job Title</div>
-              <div class="org">Company · City, ST</div>
+              <div class="role">36 Hours of direct clinical experience</div>
+              <div class="org">TallG</div>
               <ul class="bullet-list">
-                <li>Achievement/result with measurable impact (e.g., increased X by Y%).</li>
-                <li>Action verb + task + tools/tech + outcome.</li>
-                <li>Collaborated with cross-functional team to accomplish Z.</li>
+                <li>Bridged gaps and built relationships.</li>
+                <li>Integrated with interdisciplinary teams to deliver high quality care in a timely manner.</li>
+                <li>Collaborated with cross-functional team to accomplish care delivery.</li>
               </ul>
             </div>
             <div class="meta">Mon YYYY — Present</div>
@@ -215,11 +208,11 @@
 
           <li class="item">
             <div>
-              <div class="role">Job Title</div>
+              <div class="role">Future Internship/Externship</div>
               <div class="org">Company · City, ST</div>
               <ul class="bullet-list">
                 <li>Key responsibility or accomplishment.</li>
-                <li>Optimized/Implemented/Designed ... resulting in ...</li>
+                <li>Line to elaborate measurable KPIs</li>
               </ul>
             </div>
             <div class="meta">Mon YYYY — Mon YYYY</div>
@@ -232,7 +225,7 @@
         <ul class="list">
           <li class="item">
             <div>
-              <div class="role">Project Name</div>
+              <div class="role">Future Project Name</div>
               <div class="org">Short description with scope, tools/tech, and outcome; add a link if public.</div>
               <ul class="bullet-list">
                 <li>What you did and why it mattered.</li>
@@ -249,11 +242,11 @@
         <ul class="list">
           <li class="item">
             <div>
-              <div class="degree">Degree, Major</div>
-              <div class="org">University · City, ST</div>
-              <div class="org">GPA (optional), Honors (optional)</div>
+              <div class="degree">BS, Nursing - projected 2026</div>
+              <div class="org">RockH University · Home, State</div>
+              <div class="org">GPA: </div>
             </div>
-            <div class="meta">Mon YYYY — Mon YYYY</div>
+            <div class="meta">May 2025 — Nov 2026 (Projected)</div>
           </li>
         </ul>
       </section>
@@ -261,8 +254,7 @@
       <section aria-label="Certifications & Awards">
         <h2>Certifications &amp; Awards</h2>
         <ul class="bullet-list">
-          <li>Certification Name — Issuer (YYYY)</li>
-          <li>Award Name — Organization (YYYY)</li>
+          <li>BLS — American Heart Assn (2024)</li>
         </ul>
       </section>
 
@@ -270,8 +262,6 @@
         <h2>Additional</h2>
         <ul class="bullet-list">
           <li>Languages: English (Native), Spanish (Conversational)</li>
-          <li>Volunteer: Role — Org (YYYY–YYYY)</li>
-          <li>Interests (optional): e.g., distance running, community health</li>
         </ul>
       </section>
 
