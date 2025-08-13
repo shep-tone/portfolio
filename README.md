@@ -18,26 +18,36 @@ She used pie charts to convince people about sanitation. *Respect the original i
 ## 📋 **Sections**
 
 ### 1. 💊 Resume. Start Here
-> *Because noticing the small changes can save a life.*
+
+
 
 ---
 
 ### 2. 💉 Immunization records
 
 
+
+
 ---
 
 ## 🥇 Certificates/Certifications
--  Fastest IV Start (Under Pressure Division)
-- 🥈 Cleanest Patient Room Champion
-- 🥉 "You Made Me Laugh" Bedside Award
+
+
+
+
 ---
 
 ## 👀 Letters of Recommendation
 
+
+
+
 ---
 
 ## ❤️ Thank you letters from patients, employers, and coworkers 
+
+
+
 
 ---
 
