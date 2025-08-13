@@ -38,7 +38,7 @@ She used pie charts to convince people about sanitation.
 
 ---
 
-## 👀 [Letters of Recommendation](https://shep-tone.github.io/portfolio/letters)of_recommendation.html)
+## 👀 [Letters of Recommendation](https://shep-tone.github.io/portfolio/letters_of_recommendation.html)
 
 
 
