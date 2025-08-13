@@ -17,28 +17,28 @@ She used pie charts to convince people about sanitation.
 
 ## 📋 **Sections**
 
-### 💊 [Resume](https://htmlpreview.github.io/?https://raw.githubusercontent.com/shep-tone/portfolio/refs/heads/main/resume.html?token=GHSAT0AAAAAADJD2OB2WP7HS5OY3S365IDA2E5C7EA)
+### 💊 [Resume](https://shep-tone.github.io/portfolio/resume.html)
 
 
 
 ---
 
-### 💉 [Immunization records](https://htmlpreview.github.io/?https://raw.githubusercontent.com/shep-tone/portfolio/refs/heads/main/vaccinations.html?token=GHSAT0AAAAAADJD2OB2VLQYKJM6N7WFV7FO2E5DLAA
-)
+### 💉 [Immunization records](https://shep-tone.github.io/portfolio/vaccinations.html)
 
-
-
-
----
-
-## 🥇 [Certificates/Certifications](https://raw.githubusercontent.com/shep-tone/portfolio/refs/heads/main/certs.html?token=GHSAT0AAAAAADJD2OB3AN3H5PDU55M6L65Q2E5DREQ)
 
 
 
 
 ---
 
-## 👀 [Letters of Recommendation](https://raw.githubusercontent.com/shep-tone/portfolio/refs/heads/main/letters_of_recommendation.html?token=GHSAT0AAAAAADJD2OB3H5DNXGTDZYD5UMX62E5DUWQ)
+## 🥇 [Certificates/Certifications](https://shep-tone.github.io/portfolio/certs.html)
+
+
+
+
+---
+
+## 👀 [Letters of Recommendation](https://shep-tone.github.io/portfolio/letters)of_recommendation.html)
 
 
 
