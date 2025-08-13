@@ -17,7 +17,7 @@ She used pie charts to convince people about sanitation.
 
 ## 📋 **Sections**
 
-### 💊 Resume. Start Here
+### 💊 [Resume](https://htmlpreview.github.io/?https://raw.githubusercontent.com/shep-tone/portfolio/refs/heads/main/resume.html?token=GHSAT0AAAAAADJD2OB2WP7HS5OY3S365IDA2E5C7EA) Start Here
 
 
 
