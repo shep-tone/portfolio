@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Letter of Recommendation</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px 50px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.8em;
+      color: #004080;
+      margin-bottom: 30px;
+    }
+    .field {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #004080;
+    }
+    input[type="text"], input[type="date"], textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 200px;
+    }
+    .footer-note {
+      font-size: 0.85em;
+      color: #777;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Letter of Recommendation</h1>
+    <div class="field">
+      <label for="recipientName">Recipient's Name</label>
+      <input type="text" id="recipientName" name="recipientName" placeholder="Enter the name of the recipient">
+    </div>
+    <div class="field">
+      <label for="recipientTitle">Recipient's Title / Position</label>
+      <input type="text" id="recipientTitle" name="recipientTitle" placeholder="Enter recipient's title or position">
+    </div>
+    <div class="field">
+      <label for="recipientOrg">Recipient's Organization</label>
+      <input type="text" id="recipientOrg" name="recipientOrg" placeholder="Enter recipient's organization">
+    </div>
+    <div class="field">
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date">
+    </div>
+    <div class="field">
+      <label for="body">Letter Content</label>
+      <textarea id="body" name="body" placeholder="Write the letter of recommendation here..."></textarea>
+    </div>
+    <div class="field">
+      <label for="senderName">Your Name</label>
+      <input type="text" id="senderName" name="senderName" placeholder="Enter your name">
+    </div>
+    <div class="field">
+      <label for="senderTitle">Your Title / Position</label>
+      <input type="text" id="senderTitle" name="senderTitle" placeholder="Enter your title or position">
+    </div>
+    <div class="field">
+      <label for="senderOrg">Your Organization</label>
+      <input type="text" id="senderOrg" name="senderOrg" placeholder="Enter your organization">
+    </div>
+    <div class="footer-note">
+      Please ensure the content is professional and accurate before sending.
+    </div>
+  </div>
+</body>
+</html>
