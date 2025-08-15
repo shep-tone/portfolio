@@ -1,6 +1,6 @@
 # 🩺 **R Shepard: Nursing Portfolio** 💉
 This repository is a series of toy HTML pages. Designed as a POC alternative to other hosting. 
-To view the repository, please visit: [https://github.com/shep-tone/portfolio](https://shep-tone.github.io/portfolio/resume.html)
+To view the repository, please visit: [https://github.com/shep-tone/portfolio](https://github.com/shep-tone/portfolio)
 
 ## Fun Fact  
 **Florence Nightingale** was a data nerd before it was cool.  
