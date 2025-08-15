@@ -1,6 +1,6 @@
-# 🩺 **Nursing Excellence Portfolio** 💉
-
-This repository is dedicated to showcasing the **art, science, and heart** of nursing.
+# 🩺 **R Shepard: Nursing Portfolio** 💉
+This repository is a series of toy HTML pages. Designed as a POC alternative to other hosting. 
+To view the repository, please visit: https://github.com/shep-tone/portfolio
 
 ## Fun Fact  
 **Florence Nightingale** was a data nerd before it was cool.  
@@ -10,12 +10,12 @@ She used pie charts to convince people about sanitation.
 
 ---
 
-## 🌟 Mission Statement
+##  Mission Statement
 > *"To heal, to teach, to advocate — and to chart it all legibly."*
 
 ---
 
-## 📋 **Sections**
+##  **Sections**
 
 ### 💊 [Resume](https://shep-tone.github.io/portfolio/resume.html)
 
@@ -59,8 +59,6 @@ She used pie charts to convince people about sanitation.
 
 ---
 
-> 💬 *"A nurse is to comfort always, and to save life if possible."*  
-> — The Nursing Creed
 
 ---
 
