@@ -1,75 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Certification Record</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Certifications</title>
   <style>
+    :root {
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #0b5fff;
+      --bg: #ffffff;
+    }
+    * { box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
     }
     .container {
-      max-width: 700px;
-      margin: 40px auto;
-      background: white;
-      padding: 20px 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 18px;
     }
     h1 {
+      font-size: 1.6rem;
+      margin: 0;
+    }
+    .sub { color: var(--muted); margin-top: 4px; }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px dashed var(--border);
+    }
+    .row:last-child { border-bottom: none; }
+    .label { color: var(--muted); font-size: 0.9rem; }
+    .value { font-weight: 600; }
+    footer {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: var(--muted);
       text-align: center;
-      color: #004080;
     }
-    .field {
-      margin-bottom: 16px;
-    }
-    label {
-      display: block;
-      font-weight: bold;
-      margin-bottom: 4px;
-      color: #004080;
-    }
-    input[type="text"], input[type="date"] {
-      width: 100%;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 14px;
-    }
-    .footer-note {
-      font-size: 0.9em;
-      color: #777;
-      text-align: center;
-      margin-top: 20px;
+    @media print {
+      .container { padding: 0.6in; }
+      .card { box-shadow: none; }
+      a { color: inherit; text-decoration: none; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Staff Certification Record</h1>
-    <div class="field">
-      <label for="certificateName">Certificate Name</label>
-      <input type="text" id="certificateName" name="certificateName" placeholder="Enter the name of the certificate">
-    </div>
-    <div class="field">
-      <label for="issueDate">Date of Issue</label>
-      <input type="date" id="issueDate" name="issueDate">
-    </div>
-    <div class="field">
-      <label for="expiryDate">Date of Expiration</label>
-      <input type="date" id="expiryDate" name="expiryDate">
-    </div>
-    <div class="field">
-      <label for="issuingAgency">Issuing Agency</label>
-      <input type="text" id="issuingAgency" name="issuingAgency" placeholder="Enter the issuing agency">
-    </div>
-    <div class="footer-note">
-      Please ensure all certification details are accurate before submission.
-    </div>
+  <div class="container" role="document">
+    <header>
+      <h1>Certification Record</h1>
+      <div class="sub">Summary of Certifications</div>
+    </header>
+    <main>
+      <section class="card" aria-label="Certification details">
+        <div class="row">
+          <div class="label">Certification</div>
+          <div class="value">BLS</div>
+        </div>
+        <div class="row">
+          <div class="label">Date of Issue</div>
+          <div class="value">10-06-2024</div>
+        </div>
+        <div class="row">
+          <div class="label">Issuing Agency</div>
+          <div class="value">American Heart Association</div>
+        </div>
+        <div class="row">
+          <div class="label">Certification Number</div>
+          <div class="value">458DNE6</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      This document is a summary; verify details with the issuing agency as needed.
+    </footer>
   </div>
 </body>
 </html>
